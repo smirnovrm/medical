@@ -1,0 +1,41 @@
+html {
+
+}
+body {
+
+}
+/*
+Стили оформления блока
+с ссылками на версию для
+слабовидящих и проверки
+готовности анализов
+*/
+.top-page{
+    background-color: #0062cc;
+}
+.top-page ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.top-page li {
+    float: left;
+    position: relative;
+}
+.top-page li:nth-child(2){
+    margin-left: 20px;
+}
+.top-page a {
+    color: #fff;
+    margin-left: 25px;
+}
+.top-page a:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    background-color: #c82333;
+}
