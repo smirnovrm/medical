@@ -39,3 +39,19 @@ body {
     left: 0;
     background-color: #c82333;
 }
+
+/*
+Стили для оформления
+блоков в шапке сайта,
+логотип, поиск, адрес,
+телефон, режим работы
+*/
+header {
+
+}
+header .address-info {
+
+}
+header .phone-info {
+
+}
