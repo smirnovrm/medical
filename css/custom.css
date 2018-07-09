@@ -212,3 +212,9 @@ header .address-info p{
     padding-top: 10px;
     margin-left: 125px;
 }
+.sidebar-photo-link {
+    margin-top: 75px;
+}
+.sidebar-photo-link a {
+    font-size: 0.70rem;
+}
