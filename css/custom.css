@@ -131,14 +131,15 @@ header .address-info p{
     top: 45%;
 }
 
-/*Стили обертки
-для контента*/
+/*Стили обертки,
+контента*/
 .main-content {
     margin-top: 15px;
 }
 .main-content .page-header {
     font-size: 1.9rem;
     color: #1e4ca4;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 .med-service {
     background: 0 150px #fff url(../images/submenu_background.png) no-repeat;
@@ -169,4 +170,19 @@ header .address-info p{
 .med-service a {
     color: #000000;
     font-size: 14px;
+}
+.doc-app {
+    background-color: #cce1ff;
+    color: #0541a1;
+    font-size: 1.3rem;
+}
+.doc-app span {
+    font-size: 1rem;
+}
+.doc-app span i {
+    font-style: normal;
+}
+.intro-text {
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 }
