@@ -2,9 +2,9 @@
 Максимальная ширина контента
 */
 @media (min-width: 1200px) {
-    .container {
-        max-width: 990px;
-    }
+    /*.container {*/
+        /*max-width: 990px;*/
+    /*}*/
 }
 
 html {
@@ -139,4 +139,34 @@ header .address-info p{
 .main-content .page-header {
     font-size: 1.9rem;
     color: #1e4ca4;
+}
+.med-service {
+    background: 0 150px #fff url(../images/submenu_background.png) no-repeat;
+    padding-bottom: 70px !important;
+}
+.med-service img {
+    float: left;
+}
+.med-service h4 {
+    font-size: 1.1rem;
+    color: #248DCE;
+    margin-top: 10px;
+}
+.med-service:nth-child(3) h4,
+.med-service:nth-child(4) h4 {
+    margin-top: 15px;
+}
+.med-service ul {
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    list-style: none;
+}
+.med-service:nth-child(3) ul,
+.med-service:nth-child(4) ul {
+    margin-top: 47px;
+}
+.med-service a {
+    color: #000000;
+    font-size: 14px;
 }
