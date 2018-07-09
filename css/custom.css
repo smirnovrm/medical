@@ -1,3 +1,12 @@
+/*
+Максимальная ширина контента
+*/
+@media (min-width: 1200px) {
+    .container {
+        max-width: 990px;
+    }
+}
+
 html {
 
 }
@@ -12,6 +21,8 @@ body {
 */
 .top-page{
     background-color: #0062cc;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .top-page ul {
     list-style: none;
@@ -27,17 +38,20 @@ body {
 }
 .top-page a {
     color: #fff;
-    margin-left: 25px;
+    margin-left: 30px;
 }
 .top-page a:before {
     content: "";
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     position: absolute;
-    top: 2px;
+    top: 0;
     left: 0;
-    background-color: #c82333;
+    background: transparent url(../images/bl1.png) no-repeat center center;
+}
+ .top-page a.icon-check-analysis:before{
+     background: transparent url(../images/an1.png) no-repeat center center;
 }
 
 /*
@@ -47,11 +61,72 @@ body {
 телефон, режим работы
 */
 header {
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-header .address-info {
-
+header img {
+    margin-top: 20px;
+    float: left;
 }
-header .phone-info {
-
+.logo img {
+    max-width: 100%;
+}
+header input {
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+header .search-box {
+    padding-top: 30px;
+}
+header .btn-search {
+    background: transparent url(../images/search_icon.png) no-repeat center center;
+    border: 1px solid #c6e8fe;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header .search-field {
+    border: 1px solid #c6e8fe;
+    border-right: none;
+    padding: 3px 7px;
+    border-radius: 10px 0 0 10px;
+    max-width: 160px;
+}
+header .address-info,
+header .phone-info{
+    padding-top: 5px;
+}
+header .address-info p{
+    margin-left: 30px;
+}
+/*
+Стили оформления меню
+*/
+.padding-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.main-menu {
+    background: #1b75d5;
+}
+.main-menu li {
+    width: 16.666%;
+}
+.main-menu a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: transparent;
+}
+.main-menu a:hover {
+    background-color: #00ccff;
+}
+.main-menu .dropdown-item {
+    color: #000;
+}
+.main-menu .dropdown-toggle::after {
+    position: absolute;
+    right: 10px;
+    top: 45%;
 }

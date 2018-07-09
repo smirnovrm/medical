@@ -21,7 +21,7 @@
                 <div class="col-md-12">
                     <ul class="float-md-right">
                         <li><a href="#">Версия для слабовидящих</a></li>
-                        <li><a href="#">Готовность анализов</a></li>
+                        <li><a href="#" class="icon-check-analysis">Готовность анализов</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,24 +32,34 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    logo
+                <div class="col-md-3 logo">
+                    <a href="/">
+                        <img src="images/logo.png" alt="">
+                    </a>
                 </div>
 
-                <div class="col-md-3">
-                    <input type="text" class="float-md-right">
+                <div class="col-md-3 search-box">
+                    <form class="form-inline float-md-right">
+                        <div class="input-group mb-2 mr-sm-2">
+                            <input type="text" class="form-control search-field">
+                            <div class="input-group-append">
+                                <button type="submit" class="input-group-text btn-search"></button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
 
                 <div class="col-md-3 address-info">
-                    <i class="icon"></i>
+                    <img src="images/map_icon.png" alt="">
                     <p>
                         Наш адрес
                         Москва,ул.Москворочье,д.1,
                         <a href="#">Контактная информация</a>
                     </p>
                 </div>
-                <div class="col-md-3" phone-info>
-                    <i class="icon"></i>
+
+                <div class="col-md-3 phone-info">
+                    <img src="images/phone_icon.png" alt="">
                     <p>
                         Регистратура: 9:00 - 17:00
                         +7(495)111-03-03
@@ -60,7 +70,82 @@
         </div>
     </header>
 
-
+    <!--Главное Меню-->
+    <nav class="navbar navbar-expand-lg main-menu padding-menu">
+        <div class="container">
+            <div class="row w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="nav navbar-nav w-100">
+                        <li class="nav-item"><a href="#" class="nav-link">Главная</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">О центре</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Новости</a>
+                                <a class="dropdown-item" href="#">Структура</a>
+                                <a class="dropdown-item" href="#">С нами сотрудничают</a>
+                                <a class="dropdown-item" href="#">Документы</a>
+                                <a class="dropdown-item" href="#">Вакансии</a>
+                                <a class="dropdown-item" href="#">Контактная информация</a>
+                                <a class="dropdown-item" href="#">Противодействие коррупции</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Научная деятельность</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Новости</a>
+                                <a class="dropdown-item" href="#">Структура</a>
+                                <a class="dropdown-item" href="#">С нами сотрудничают</a>
+                                <a class="dropdown-item" href="#">Документы</a>
+                                <a class="dropdown-item" href="#">Вакансии</a>
+                                <a class="dropdown-item" href="#">Контактная информация</a>
+                                <a class="dropdown-item" href="#">Противодействие коррупции</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Образование</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Новости</a>
+                                <a class="dropdown-item" href="#">Структура</a>
+                                <a class="dropdown-item" href="#">С нами сотрудничают</a>
+                                <a class="dropdown-item" href="#">Документы</a>
+                                <a class="dropdown-item" href="#">Вакансии</a>
+                                <a class="dropdown-item" href="#">Контактная информация</a>
+                                <a class="dropdown-item" href="#">Противодействие коррупции</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Медицинские услуги</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Новости</a>
+                                <a class="dropdown-item" href="#">Структура</a>
+                                <a class="dropdown-item" href="#">С нами сотрудничают</a>
+                                <a class="dropdown-item" href="#">Документы</a>
+                                <a class="dropdown-item" href="#">Вакансии</a>
+                                <a class="dropdown-item" href="#">Контактная информация</a>
+                                <a class="dropdown-item" href="#">Противодействие коррупции</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Специалистам</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Новости</a>
+                                <a class="dropdown-item" href="#">Структура</a>
+                                <a class="dropdown-item" href="#">С нами сотрудничают</a>
+                                <a class="dropdown-item" href="#">Документы</a>
+                                <a class="dropdown-item" href="#">Вакансии</a>
+                                <a class="dropdown-item" href="#">Контактная информация</a>
+                                <a class="dropdown-item" href="#">Противодействие коррупции</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
