@@ -130,3 +130,13 @@ header .address-info p{
     right: 10px;
     top: 45%;
 }
+
+/*Стили обертки
+для контента*/
+.main-content {
+    margin-top: 15px;
+}
+.main-content .page-header {
+    font-size: 1.9rem;
+    color: #1e4ca4;
+}
