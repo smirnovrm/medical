@@ -218,3 +218,31 @@ header .address-info p{
 .sidebar-photo-link a {
     font-size: 0.70rem;
 }
+footer {
+    margin-top: 75px;
+}
+footer .footer-link {
+    font-size: 0.9rem;
+}
+.footer-link a {
+    margin-left: 30px;
+}
+.footer-link li {
+    position: relative;
+}
+.footer-link a:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent url(../images/an2.png) no-repeat center center;
+}
+.footer-link .visually-impaired:before {
+    background: transparent url(../images/bl2.png) no-repeat center center;
+}
+.footer-link .press-center:before {
+    background: none;
+}
