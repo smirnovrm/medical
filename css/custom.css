@@ -186,3 +186,29 @@ header .address-info p{
     font-size: 1.5rem;
     font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 }
+.sidebar-link {
+    list-style: none;
+}
+.sidebar-link a {
+    font-size: 1.2rem;
+    line-height: 1rem;
+}
+.w-100px {
+    width: 100px;
+    height: auto;
+}
+.ul-prepared {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.news-list li {
+    margin-top: 50px;
+}
+.news-list li > img{
+    float: left;
+}
+.news-list li > div {
+    padding-top: 10px;
+    margin-left: 125px;
+}
