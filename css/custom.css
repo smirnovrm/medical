@@ -246,3 +246,17 @@ footer .footer-link {
 .footer-link .press-center:before {
     background: none;
 }
+.footer-address img,
+.footer-info img {
+    float: left;
+    margin-top: 15px;
+}
+.footer-address p,
+.footer-info p {
+    margin-left: 35px;
+    font-size: 0.85rem;
+}
+.footer-social img {
+    width: 30px;
+    height: auto;
+}
